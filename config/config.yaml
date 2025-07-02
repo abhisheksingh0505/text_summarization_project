@@ -13,3 +13,11 @@ data_validation:
     - train
     - test
     - validation
+
+data_transformation:
+  tokenizer_name: google/pegasus-cnn_dailymail
+  root_dir: artifacts/data_transformation
+  data_path: artifacts/data_ingestion/samsum_dataset
+
+   
+
